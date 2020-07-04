@@ -3,11 +3,11 @@
 clear
 ls -l
 
-echo "Hey there. So you want to rename something. What is it?"
-read -p 'Insert the file/path to rename: ' filepathtochange
+echo "Hey there. So you want to rename something/move. What is it?"
+read -p 'Insert the file/path to rename/move: ' filepathtochange
 
-echo "Okay gotcha. The new name will be?: "
-read -p 'New name?: ' newname
+echo "Okay gotcha. The new name/path will be?: "
+read -p 'New name/path?: ' newname
 
 clear
 echo "Now... lemme do the thing."
